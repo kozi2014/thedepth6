@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C73610F919F0B5580033F76D /* adviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C73610F819F0B5580033F76D /* adviceViewController.m */; };
+		C7A2D80519EE3077008CE114 /* omikujiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A2D80419EE3077008CE114 /* omikujiViewController.m */; };
+		C7A2D80819EE50B1008CE114 /* BrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A2D80719EE50B1008CE114 /* BrowserViewController.m */; };
 		C7D9175C19EE1B160047A5E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D9175B19EE1B160047A5E9 /* Foundation.framework */; };
 		C7D9175E19EE1B160047A5E9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D9175D19EE1B160047A5E9 /* CoreGraphics.framework */; };
 		C7D9176019EE1B160047A5E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D9175F19EE1B160047A5E9 /* UIKit.framework */; };
@@ -21,6 +24,7 @@
 		C7D9177D19EE1B160047A5E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D9175F19EE1B160047A5E9 /* UIKit.framework */; };
 		C7D9178519EE1B170047A5E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7D9178319EE1B170047A5E9 /* InfoPlist.strings */; };
 		C7D9178719EE1B170047A5E9 /* thedepth6Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D9178619EE1B170047A5E9 /* thedepth6Tests.m */; };
+		C7D9179219EE1C490047A5E9 /* QuetionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D9179119EE1C490047A5E9 /* QuetionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C73610F719F0B5580033F76D /* adviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = adviceViewController.h; sourceTree = "<group>"; };
+		C73610F819F0B5580033F76D /* adviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = adviceViewController.m; sourceTree = "<group>"; };
+		C7A2D80319EE3077008CE114 /* omikujiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = omikujiViewController.h; sourceTree = "<group>"; };
+		C7A2D80419EE3077008CE114 /* omikujiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = omikujiViewController.m; sourceTree = "<group>"; };
+		C7A2D80619EE50B1008CE114 /* BrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrowserViewController.h; sourceTree = "<group>"; };
+		C7A2D80719EE50B1008CE114 /* BrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowserViewController.m; sourceTree = "<group>"; };
 		C7D9175819EE1B160047A5E9 /* thedepth6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = thedepth6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7D9175B19EE1B160047A5E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C7D9175D19EE1B160047A5E9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +63,8 @@
 		C7D9178219EE1B170047A5E9 /* thedepth6Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "thedepth6Tests-Info.plist"; sourceTree = "<group>"; };
 		C7D9178419EE1B170047A5E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C7D9178619EE1B170047A5E9 /* thedepth6Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = thedepth6Tests.m; sourceTree = "<group>"; };
+		C7D9179019EE1C490047A5E9 /* QuetionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuetionViewController.h; sourceTree = "<group>"; };
+		C7D9179119EE1C490047A5E9 /* QuetionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuetionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +127,14 @@
 				C7D9176A19EE1B160047A5E9 /* AppDelegate.h */,
 				C7D9176B19EE1B160047A5E9 /* AppDelegate.m */,
 				C7D9176D19EE1B160047A5E9 /* Main.storyboard */,
+				C73610F719F0B5580033F76D /* adviceViewController.h */,
+				C73610F819F0B5580033F76D /* adviceViewController.m */,
+				C7A2D80619EE50B1008CE114 /* BrowserViewController.h */,
+				C7A2D80719EE50B1008CE114 /* BrowserViewController.m */,
+				C7A2D80319EE3077008CE114 /* omikujiViewController.h */,
+				C7A2D80419EE3077008CE114 /* omikujiViewController.m */,
+				C7D9179019EE1C490047A5E9 /* QuetionViewController.h */,
+				C7D9179119EE1C490047A5E9 /* QuetionViewController.m */,
 				C7D9177019EE1B160047A5E9 /* ViewController.h */,
 				C7D9177119EE1B160047A5E9 /* ViewController.m */,
 				C7D9177319EE1B160047A5E9 /* Images.xcassets */,
@@ -251,7 +271,11 @@
 			files = (
 				C7D9177219EE1B160047A5E9 /* ViewController.m in Sources */,
 				C7D9176C19EE1B160047A5E9 /* AppDelegate.m in Sources */,
+				C7D9179219EE1C490047A5E9 /* QuetionViewController.m in Sources */,
 				C7D9176819EE1B160047A5E9 /* main.m in Sources */,
+				C7A2D80519EE3077008CE114 /* omikujiViewController.m in Sources */,
+				C7A2D80819EE50B1008CE114 /* BrowserViewController.m in Sources */,
+				C73610F919F0B5580033F76D /* adviceViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +480,7 @@
 				C7D9178C19EE1B170047A5E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7D9178D19EE1B170047A5E9 /* Build configuration list for PBXNativeTarget "thedepth6Tests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +489,7 @@
 				C7D9178F19EE1B170047A5E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
